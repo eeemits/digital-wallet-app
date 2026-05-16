@@ -1,0 +1,21 @@
+/** Central route names for deep linking and navigation helpers */
+export const routes = {
+  splash: 'Splash',
+  home: 'Home',
+  wallet: 'Wallet',
+  pay: 'Pay',
+  rewards: 'Rewards',
+  profile: 'Profile',
+  mainTabs: 'MainTabs',
+  send: 'Send',
+  receive: 'Receive',
+  nova: 'Nova',
+  topup: 'TopUp',
+  withdraw: 'Withdraw',
+  notifications: 'Notifications',
+  settings: 'Settings',
+  scanQr: 'ScanQr',
+  login: 'Login',
+  register: 'Register',
+  onboarding: 'Onboarding',
+} as const;

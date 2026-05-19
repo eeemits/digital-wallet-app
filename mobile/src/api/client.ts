@@ -1,6 +1,6 @@
 import { config } from '@/lib/config';
 
-type RequestOptions = {
+interface RequestOptions  {
   method?: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
   body?: unknown;
   headers?: Record<string, string>;
